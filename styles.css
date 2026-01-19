@@ -1,0 +1,62 @@
+body{
+    background-color: gold;
+}
+
+h1{
+    background-color: aqua;
+    font-size: 55px;
+    color: blue;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: overline;
+    font-weight: 900;
+    word-spacing: 5px;
+}
+h2{
+    /* border: 5px blue solid; */
+    border-top: 7px blue solid;
+    border-right: 7px black solid ;
+    border-bottom: 7px red groove;
+    border-left: 7px brown dotted;
+
+    /* padding */
+    /* padding: 50px; */
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    /* margin */
+    /* margin: 70px; */
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+a:hover{
+    background-color: blue;
+    color: indigo;
+    text-decoration: underline;
+}
+h1:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
