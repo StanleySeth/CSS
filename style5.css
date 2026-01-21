@@ -1,0 +1,35 @@
+#division1{
+    background-color: black;
+    height: 245px;
+    width: 100%;
+}
+
+.division2{
+    height: 50px;
+  width: 100%;
+  background-color: white;
+}
+#division3{
+    background-color: red;
+    height: 210px;
+    width: 100%;
+}
+#division4{
+    background-color: green;
+    height: 245px;
+    width: 100%;
+}
+.container{     
+    width: 500px;
+    height: 300px;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.image{
+   width: 100%;
+  position: absolute;
+  top: -134%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
